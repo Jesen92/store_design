@@ -1,5 +1,6 @@
 ActiveAdmin.register Author do
 
+permit_params :id, :first_name, :last_name, :name
 # See permitted parameters documentation:
 # https://github.com/activeadmin/activeadmin/blob/master/docs/2-resource-customization.md#setting-up-strong-parameters
 #
