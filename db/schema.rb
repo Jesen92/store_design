@@ -47,9 +47,8 @@ ActiveRecord::Schema.define(version: 20150528180236) do
   add_index "admin_users", ["reset_password_token"], name: "index_admin_users_on_reset_password_token", unique: true, using: :btree
 
   create_table "authors", force: true do |t|
-    t.string   "first_name", limit: 100
-    t.string   "last_name",  limit: 100
-    t.string   "name",       limit: 120
+    t.string   "first_name"
+    t.string   "last_name"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

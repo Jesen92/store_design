@@ -12,9 +12,11 @@ default: &default
 development:
   <<: *default
   adapter: mysql2
-  database: bookstore_development
-  username: jesen
+  database: bookdevelop
+  username: jesen92
   password: VYFjqwF92
+  host: 85.10.205.173
+  port: 3306
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
