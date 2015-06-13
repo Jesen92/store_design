@@ -30,4 +30,9 @@ test:
 
 production:
   <<: *default
-  database: db/production.sqlite3
+  adapter: mysql2
+  database: bookdevelop
+  username: jesen92
+  password: VYFjqwF92
+  host: 85.10.205.173
+  port: 3306
