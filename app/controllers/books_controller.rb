@@ -1,4 +1,6 @@
 class BooksController < ApplicationController
+  layout "main", except: [:show]
+
   def new
     @page_title = 'Add New Book'
     @book = Book.new
